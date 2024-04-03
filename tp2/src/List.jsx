@@ -1,7 +1,7 @@
 import React from 'react';
 import { v4 as uuid } from 'uuid';
 // import { plantList } from './List';
-import { plantList2 } from './plantList2';
+
 import Accordion from './Accordion';
 const unique_id = uuid();
 // const small_id = unique_id.slice(0, 8);
@@ -28,7 +28,7 @@ const listeTache = [
     button:<button type="button" class ='btn btn-outline-info'>Ajouter une tâche</button>
     },
     {
-    name: 'Programmation Objet-Orienté',
+    nom: 'Programmation Objet-Orienté',
     HeadID: 'headingThree',
     img:   <img src="../logobd.avif" alt="logo" style={{ height: "80px" }} />,
     dataTarget: "#collapseThree",
@@ -39,15 +39,29 @@ const listeTache = [
 
 function ShoppingList() {
     return (
-        <ul>
-            {plantList2.map((dynamicList) => (
-            <li key={Accordion.id} style={{backgroundColor:"red", margin:"10px"}}>
-                {Accordion.name}
-                {a.isBestSale ? <span>🔥</span> : <span>👎</span>}
-            </li>
+        
+            {listeTache.map((dynamicList) => (
+                <div class="accordion" id="accordionExample">
+  <div class="accordion-item">
+    <h2 class="accordion-header" id={dynamicList.HeadID}>
+      <button class="accordion-button" type="button" data-bs-toggle="collapse" data-bs-target={dynamicList.dataTarget} aria-expanded="true" aria-controls= {dynamicList.ariaControls}>
+                 {dynamicList.img} {dynamicList.nom}
+       </button>
+    </h2>
+    <div id="collapseOne" class="accordion-collapse collapse show" aria-labelledby={dynamicList.HeadID} data-bs-parent="#accordionExample">
+         <div>
+            <p style={{textAlign:"center",backgroundColor:"blanchedalmond",padding:"5px 5px"}}>Mes Tâches à faire</p>
+         </div>
+      <div class="accordion-body">
+       {dynamicList.button}
+      </div>
+    </div>
+  </div>
+    </div>
+            
         ))}
-        </ul>
-    )
+    
+    );
 }
 
 export default ShoppingList
