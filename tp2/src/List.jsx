@@ -10,37 +10,37 @@ const unique_id = uuid();
 // Il applique une fonction et renvoie un nouveau tableau contenant
 // les résultats de cette fonction appliquée à chaque élément.
 
-const plantList2 = [
+const listeTache = [
     {
-    name: 'Monstera',
-    category: 'Classic',
-    id: {unique_id},
-    isBestSale: true
+    nom: 'Application Web',
+    HeadID: 'headingOne',
+    img:<img src="../logoappweb.svg" alt="logo" style={{ height: "60px" }} />,
+    dataTarget: "#collapseOne",
+    ariaControls: "collapseOne",
+    button:<button type="button" class ='btn btn-outline-info'>Ajouter une tâche</button>
     },
     {
-    name: 'Ficus Lyrata',
-    category: 'Classic',
-    id: {unique_id},
-    isBestSale: false
+    nom:"Base de données",
+    HeadID: 'headingTwo',
+    img:<img src="../logobd.avif" alt="logo" style={{ height: "80px" }} />,
+    dataTarget: "#collapseTwo",
+    ariaControls: "collapseTwo",
+    button:<button type="button" class ='btn btn-outline-info'>Ajouter une tâche</button>
     },
     {
-    name: 'Silver Pothos',
-    category: 'Classic',
-    id: {unique_id},
-    isBestSale: true
-    },
-    {
-    name: 'Yucca',
-    category: 'Classic',
-    id: {unique_id},
-    isBestSale: true
+    name: 'Programmation Objet-Orienté',
+    HeadID: 'headingThree',
+    img:   <img src="../logobd.avif" alt="logo" style={{ height: "80px" }} />,
+    dataTarget: "#collapseThree",
+    ariaControls: "collapseThree",
+    button:<button type="button" class ='btn btn-outline-info'>Ajouter une tâche</button>
     },
     ]
 
 function ShoppingList() {
     return (
         <ul>
-            {plantList2.map((Accordion) => (
+            {plantList2.map((dynamicList) => (
             <li key={Accordion.id} style={{backgroundColor:"red", margin:"10px"}}>
                 {Accordion.name}
                 {a.isBestSale ? <span>🔥</span> : <span>👎</span>}
