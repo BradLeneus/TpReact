@@ -6,12 +6,13 @@ import reportWebVitals from './reportWebVitals';
 import Accordion from './Accordion';
 import Nav from './Nav';
 import Footer from './Footer';
+import Accordeon from './List';
 
 const root = ReactDOM.createRoot(document.getElementById('root'));
 root.render(
   <React.StrictMode>
     <Nav />
-    <Accordion />
+    <Accordeon />
     <Footer />
   </React.StrictMode>
 );
