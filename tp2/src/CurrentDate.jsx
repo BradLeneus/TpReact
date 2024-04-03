@@ -15,6 +15,18 @@ function CurrentDate() {
 
 
     return (
-        <h1> {date.getDay()}/ {date.getMonth()} /{date.getFullYear()}  </h1>
+        <div class="container text-center">
+        <div class="row">
+          <div class="col">
+          <i class="arrow left"></i>
+          </div>
+          <div class="col">
+          <h1> {date.getDay()}/ {date.getMonth()} /{date.getFullYear()}  </h1>
+          </div>
+          <div class="col">
+          <i class="arrow right"></i>
+          </div>
+        </div>
+      </div>
     );
 } export default CurrentDate
