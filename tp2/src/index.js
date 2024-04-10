@@ -7,11 +7,16 @@ import Accordion from './Accordion';
 import Nav from './Nav';
 import Footer from './Footer';
 import Accordeon from './List';
+import CurrentDate from './CurrentDate';
+import SideBar from './SideBar';
+import './App.css';
 
 const root = ReactDOM.createRoot(document.getElementById('root'));
 root.render(
   <React.StrictMode>
-    <Nav />
+    <Nav/>
+ 
+    <CurrentDate/>
     <Accordeon />
     <Footer />
   </React.StrictMode>

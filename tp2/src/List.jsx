@@ -18,7 +18,7 @@ const listeTache = [
     img:<img src="../logoappweb.svg" alt="logo" style={{ height: "60px" }} />,
     dataTarget: "#collapseOne",
     ariaControls: "collapseOne",
-    button:<button type="button" class ='btn btn-outline-info'>Ajouter une tâche</button>,
+    button:<button type="button" class ='btn btn-outline-info'  style={{backgroundColor:"orange",color:"beige"}}>Ajouter une tâche</button>,
     collapseID: "collapseOne"
     },
     {
@@ -27,7 +27,7 @@ const listeTache = [
     img:<img src="../logobd.avif" alt="logo" style={{ height: "80px" }} />,
     dataTarget: "#collapseTwo",
     ariaControls: "collapseTwo",
-    button:<button type="button" class ='btn btn-outline-info'>Ajouter une tâche</button>,
+    button:<button type="button" class ='btn btn-outline-info' style={{backgroundColor:"orange",color:"beige"}}>Ajouter une tâche</button>,
     collapseID: "collapseTwo"
     },
     {
@@ -36,7 +36,7 @@ const listeTache = [
     img:   <img src="../logoOOP.webp" alt="logo" style={{ height: "60px" }} />,
     dataTarget: "#collapseThree",
     ariaControls: "collapseThree",
-    button:<button type="button" class ='btn btn-outline-info'>Ajouter une tâche</button>,
+    button:<button type="button" class ='btn btn-outline-info' style={{backgroundColor:"orange",color:"beige"}}>Ajouter une tâche</button>,
     collapseID: "collapseThree"
     },
     ]
