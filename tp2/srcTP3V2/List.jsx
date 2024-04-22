@@ -3,7 +3,6 @@ import 'bootstrap/dist/css/bootstrap.min.css';
 import 'bootstrap/dist/js/bootstrap.bundle.min.js'
 // import { plantList } from './List';
 
-import Accordion from './Accordion';
 
 // const small_id = unique_id.slice(0, 8);
 
@@ -15,7 +14,7 @@ const listeTache = [
     {
     nom: 'Application Web',
     HeadID: 'headingOne',
-    img:<img src="../logoappweb.svg" alt="logo" style={{ height: "60px" }} />,
+    img:<img src="./logoappweb.png" alt="logo" style={{ height: "60px" }} />,
     dataTarget: "#collapseOne",
     ariaControls: "collapseOne",
     button:<button type="button" class ='btn btn-outline-info'  style={{backgroundColor:"orange",color:"beige"}}>Ajouter une tâche</button>,
@@ -24,7 +23,7 @@ const listeTache = [
     {
     nom:"Base de données",
     HeadID: 'headingTwo',
-    img:<img src="../logobd.avif" alt="logo" style={{ height: "80px" }} />,
+    img:<img src="./logobd.png" alt="logo" style={{ height: "80px" }} />,
     dataTarget: "#collapseTwo",
     ariaControls: "collapseTwo",
     button:<button type="button" class ='btn btn-outline-info' style={{backgroundColor:"orange",color:"beige"}}>Ajouter une tâche</button>,
@@ -33,7 +32,7 @@ const listeTache = [
     {
     nom: 'Programmation Objet-Orienté',
     HeadID: 'headingThree',
-    img:   <img src="../logoOOP.webp" alt="logo" style={{ height: "60px" }} />,
+    img:   <img src="./logoOOP.png" alt="logo" style={{ height: "60px" }} />,
     dataTarget: "#collapseThree",
     ariaControls: "collapseThree",
     button:<button type="button" class ='btn btn-outline-info' style={{backgroundColor:"orange",color:"beige"}}>Ajouter une tâche</button>,

@@ -3,12 +3,12 @@ import ReactDOM from 'react-dom/client';
 import './index.css';
 import App from './App';
 import reportWebVitals from './reportWebVitals';
-import Accordion from './Accordion';
+
 import Nav from './Nav';
 import Footer from './Footer';
 import Accordeon from './List';
 import CurrentDate from './CurrentDate';
-import SideBar from './SideBar';
+//import SideBar from './SideBar';
 import './App.css';
 
 const root = ReactDOM.createRoot(document.getElementById('root'));

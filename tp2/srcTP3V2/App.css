@@ -74,26 +74,26 @@
 
 /* App.css */
 
-.sidebar {
-  width: 50px;
-  transition: width 0.5s, opacity 0.5s;
-  opacity: 1;
-  overflow: hidden;
+
+
+.cercle {
+  height: 125px;
+  width: 125px;
+  background-color:gray;
+  border-radius: 50%;
+  display: inline-block;
 }
 
-.sidebar:not(.open) {
-  width: 0;
-  opacity: 0;
+.formContainer{
+  background-color:orange;
+  text-align: center;
+  width:60%;
+  height: 35%;
+ border-style: solid;
+ margin-top: 30px;
 }
 
-.sidebar.open {
-  width: 100px;
-}
 
-.sidebar {
-  width: 250px;
-  height: 100%;
-}
 
 
 
