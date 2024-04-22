@@ -32,14 +32,14 @@ function SideBar() {
             </a>
 
             <div class="offcanvas offcanvas-start" tabindex="-1" id="offcanvasExample" aria-labelledby="offcanvasExampleLabel">
-                <div class="offcanvas-header">
+                <div class="offcanvas-header" style={{backgroundColor: "black",color:"White"}}>
                     <button type="button" style={{ backgroundColor: "orange" }}>📷</button>
                     <img src="./iconApp.webp" alt="logo" style={{ height: "70px", paddingRight: "20px" }} /> <span style={{ fontSize: "40px" }}>Taskify</span>
                     <button type="button" class="btn-close text-reset" data-bs-dismiss="offcanvas" aria-label="Close"></button>
                 </div>
-                <div class="offcanvas-body">
+                <div class="offcanvas-body" style={{backgroundColor: "orange"}}> 
                     <div>
-                        <span class="cercle"></span>
+                        <span class="cercle" ></span>
                     </div>
                     <div>
                         <span style={{ fontSize: "30px" }}>Nom</span>
