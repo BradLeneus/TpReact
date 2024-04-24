@@ -1,14 +1,6 @@
 import React from 'react';
 import 'bootstrap/dist/css/bootstrap.min.css';
 import 'bootstrap/dist/js/bootstrap.bundle.min.js'
-// import { plantList } from './List';
-
-
-// const small_id = unique_id.slice(0, 8);
-
-// La méthode JavaScript map() passe sur chaque élément d'un tableau.
-// Il applique une fonction et renvoie un nouveau tableau contenant
-// les résultats de cette fonction appliquée à chaque élément.
 
 const listeTache = [
     {

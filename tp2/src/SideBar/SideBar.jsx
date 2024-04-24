@@ -1,7 +1,9 @@
 import React, { useState, useEffect } from 'react';
-import './App.css';
+import '../App.css';
 import 'bootstrap/dist/css/bootstrap.min.css';
 import 'bootstrap/dist/js/bootstrap.bundle.min.js'
+
+
 
 function SideBar() {
     const [courriel, setCourriel] = useState();
@@ -32,7 +34,7 @@ function SideBar() {
             </a>
 
             <div class="offcanvas offcanvas-start" tabindex="-1" id="offcanvasExample" aria-labelledby="offcanvasExampleLabel">
-                <div class="offcanvas-header" style={{backgroundColor: "black",color:"White"}}>
+                <div class="offcanvas-header" style={{backgroundColor: "blanchedalmond",color:"black"}}>
                     <button type="button" style={{ backgroundColor: "orange" }}>📷</button>
                     <img src="./iconApp.webp" alt="logo" style={{ height: "70px", paddingRight: "20px" }} /> <span style={{ fontSize: "40px" }}>Taskify</span>
                     <button type="button" class="btn-close text-reset" data-bs-dismiss="offcanvas" aria-label="Close"></button>
@@ -60,7 +62,7 @@ function SideBar() {
                             </div>
                         </form>
                     </div>
-                    <button type="button" style={{ marginTop: "100px", backgroundColor: "orange" }}>Déconnexion</button>
+                    <button type="button" style={{ marginTop: "100px", backgroundColor: "orange" }} >Déconnexion</button>
                 </div>
             </div>
         </div>

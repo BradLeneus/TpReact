@@ -91,15 +91,21 @@
     height: 35%;
     border-style: solid;
     margin-top: 30px;
-    box-sizing: border-box; /* Inclut le rembourrage et la bordure dans la largeur et la hauteur */
+    box-sizing: border-box; 
 }
 
 .formContainer input {
-    width: 90%; /* Ajustez cette valeur comme vous le souhaitez */
-    margin: 10px auto; /* Centres l'input horizontalement et ajoute une marge en haut et en bas */
-    display: block; /* Permet de centrer l'input avec margin: auto */
+    width: 90%; 
+    margin: 10px auto; 
+    display: block; 
 }
 
+.dateContainer {
+  border: 20px solid black;
+  padding: 10px; 
+  text-align: center;
+  margin: 0 auto; 
+}
 
 
 

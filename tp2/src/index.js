@@ -1,28 +1,12 @@
 import React from 'react';
-import ReactDOM from 'react-dom/client';
-import './index.css';
+import ReactDOM from 'react-dom';
+import { Router } from 'react-router-dom';
 import App from './App';
-import reportWebVitals from './reportWebVitals';
 
-import Nav from './Nav';
-import Footer from './Footer';
-import Accordeon from './List';
-import CurrentDate from './CurrentDate';
-//import SideBar from './SideBar';
-import './App.css';
-
-const root = ReactDOM.createRoot(document.getElementById('root'));
-root.render(
-  <React.StrictMode>
-    <Nav/>
- 
-    <CurrentDate/>
-    <Accordeon />
-    <Footer />
-  </React.StrictMode>
+ReactDOM.render(
+  <Router>
+    <App />
+  </Router>,
+  document.getElementById('root')
 );
 
-// If you want to start measuring performance in your app, pass a function
-// to log results (for example: reportWebVitals(console.log))
-// or send to an analytics endpoint. Learn more: https://bit.ly/CRA-vitals
-reportWebVitals();

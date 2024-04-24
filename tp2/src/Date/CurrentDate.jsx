@@ -16,7 +16,7 @@ function CurrentDate() {
 
 
     return (
-        <div class="container text-center">
+        <div class="dateContainer">
             <div class="row">
                 <div class="col">
                     <button style={{backgroundColor:"orange"}}><i class="arrow left"></i></button>
